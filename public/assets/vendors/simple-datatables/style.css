@@ -1,0 +1,152 @@
+.dataTables_wrapper.no-header .dataTables_container {
+	border-top: 1px solid #d9d9d9;
+}
+.dataTables_wrapper.no-footer .dataTables_container {
+	 border-top: 1px solid #d9d9d9;
+ }
+
+
+
+.dataTables_top,
+.dataTables_bottom {
+	padding: 8px 10px;
+}
+
+.dataTables_top > div:first-child,
+.dataTables_bottom > div:first-child {
+	float: left;
+}
+
+.dataTables_top > div:last-child,
+.dataTables_bottom > div:last-child {
+	float: right;
+}
+
+.dataTables_input {
+	padding: 6px 12px;
+}
+
+.dataTables_info {
+	margin: 7px 0;
+}
+
+
+.dataTables_paginate a {
+	border: 1px solid transparent;
+	float: left;
+	margin-left: 2px;
+	padding: 6px 12px;
+	position: relative;
+	text-decoration: none;
+	color: #333;
+}
+
+.dataTables_paginate a:hover {
+	background-color: #d9d9d9;
+}
+
+.paginate_button.current,
+.paginate_button.current:focus,
+.paginate_button.current:hover {
+	background-color: #435ebe !important;
+	cursor: default;
+	color: #f0f0f0;
+}
+
+.dataTables_paginate .ellipsis a,
+.dataTables_paginate .disabled a,
+.dataTables_paginate .disabled a:focus,
+.dataTables_paginate .disabled a:hover {
+	cursor: not-allowed;
+}
+
+.dataTables_paginate .disabled a,
+.dataTables_paginate .disabled a:focus,
+.dataTables_paginate .disabled a:hover {
+	cursor: not-allowed;
+	opacity: 0.4;
+}
+
+.paginate_button a {
+	font-weight: bold;
+}
+
+/* TABLE */
+.dataTables_table {
+	max-width: 100%;
+	width: 100%;
+	border-spacing: 0;
+	border-collapse: separate;
+}
+
+
+.dataTables_table > tfoot > tr > th {
+	vertical-align: bottom;
+	text-align: left;
+	border-top: 1px solid #d9d9d9;
+}
+
+.dataTables_table th {
+	vertical-align: bottom;
+	text-align: left;
+}
+
+.dataTables_table th a {
+	text-decoration: none;
+	color: inherit;
+}
+
+.dataTables_sorter {
+	display: inline-block;
+	height: 100%;
+	position: relative;
+	width: 100%;
+}
+
+.dataTables_sorter::before,
+.dataTables_sorter::after {
+	content: "";
+	height: 0;
+	width: 0;
+	position: absolute;
+	right: 4px;
+	border-left: 4px solid transparent;
+	border-right: 4px solid transparent;
+	opacity: 0.2;
+}
+
+.dataTables_sorter::before {
+	border-top: 4px solid #000;
+	bottom: 0px;
+}
+
+.dataTables_sorter::after {
+	border-bottom: 4px solid #000;
+	border-top: 4px solid transparent;
+	top: 0px;
+}
+
+.asc .dataTables_sorter::after,
+.desc .dataTables_sorter::before {
+	opacity: 0.6;
+}
+
+.dataTabless-empty {
+	text-align: center;
+}
+
+.dataTables_top::after, .dataTables_bottom::after {
+	clear: both;
+	content: " ";
+	display: table;
+}
+
+.dataTables_dropdown {
+	display: inline-flex;
+	align-items: center;
+}
+
+.dataTables_dropdown label {
+	white-space: nowrap;
+	margin-left: 15px;
+}

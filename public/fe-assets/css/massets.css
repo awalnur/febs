@@ -1,0 +1,19 @@
+.topheader{
+    color: #fff;
+}
+.masset-menu{
+    height: 90vh;
+}
+.menu-as-item{
+    max-width: 120px;
+    min-width: 75px;
+    max-height: 120px;
+    min-height: 75px;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 34pt;
+}
+.menus a{
+    color: #343434;
+
+}

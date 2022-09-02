@@ -1,0 +1,328 @@
+body{
+    font-family: 'Poppins';
+}
+.btn-success{
+    background-color: #09D259 !important;
+    border: solid #09D259 !important;
+;
+}
+.header-top-bar{
+    background-color: #CE1212;
+}
+.bg-primary{
+    background-color: #CE1212 !important;
+}
+
+ul.login-button {
+    font-weight: 500;
+    list-style: none;
+    padding: 0;
+    background-color: #343434;
+}
+
+ul.login-button li{
+    padding: 12px 15px 12px 15px;
+    color: #fff
+}
+ul.login-button li::after {
+    content: "";
+    /*display: block;*/
+    border-right: 2px solid #CCC;
+    padding-left: 1rem;
+    margin-right: -15px;
+}
+
+ul.login-button li:last-child::after {
+    display: none;
+}
+.logo{
+    max-height: 64px;
+}
+ul.navbar-nav{
+    font-weight: 500;
+    color: #343434;
+}
+ul.navbar-nav li a{
+    padding: 0px 20px 0px 20px;
+    font-weight: 500;
+    color: #343434;
+}
+ul.navbar-nav li a:hover{
+    font-weight: 500;
+    color: #CE1212;
+}
+ul.navbar-nav li.active a.nav-link{
+    color: #CE1212;
+    font-weight: 500;
+}
+ul.navbar-nav li.active::after{
+    content: "";
+    display: block;
+    border-bottom: solid 2px #CE1212;
+    padding-top: .5rem;
+ }
+ul.navbar-nav li.dropdown.active::after{
+    content: "";
+    display: block;
+    border-bottom: solid 2px #CE1212;
+    padding-top: .5rem;
+}
+ul.dropdown-menu a.dropdown-item{
+    color: #3b3939;
+}
+ul.dropdown-menu li a.dropdown-item.active{
+    color: #CE1212 !important;
+    background-color: rgba(255, 255, 255, 0.58);
+}
+ul.navbar-nav li.dropdown.active a.dropdown-item.active{
+    color: #3b3939;
+}
+ul.navbar-nav li a i::before{
+    content: "";
+    padding:0px
+}
+ul.navbar-nav li.active .nav-link.show{
+   font-weight: 500;
+    content: "";
+    display: block;
+    border-bottom: solid 0px #ce1712;
+    padding-bottom: 0rem;
+}
+ul.navbar-nav li a.show{
+    color: #ce1712;
+    font-weight: 500;
+    content: "";
+    display: block;
+    border-bottom: solid 2px #ce1712;
+    padding-bottom: .5rem;
+}
+.dropdown-menu{
+    border-radius: 0px 0px 0px 15px;
+    margin-top: 8px !important;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+.dropdown-menu .dropdown-item{
+    padding: 5px 20px;
+}
+.left-carousel{
+    width: 71vw;
+    position: absolute;
+    border-bottom: 50vw solid #ce1712;
+    border-right: 36vw solid transparent;
+}
+.carousel-caption{
+    text-align: left;
+
+    left: 4% !important;
+}
+.carousel-caption h5{
+    width: 50% !important;
+    font-size: 35pt;
+    font-weight: 600;
+    border-bottom: #fff solid 4px;
+}
+.carousel-caption p{
+    font-size: 18pt;
+}
+.carousel-overlay{
+    position: absolute;
+    height: 100vw;
+    width: 100%;
+    opacity: 0.5;
+    background-color: #ce1712;
+}
+.righborder{
+    height: 40vw;
+    left: 45vw;
+    width: 23px;
+    top: -56px;
+    background-color: #930d00;
+    position: absolute;
+    transform: rotate(-35deg);
+    border-radius: 0px 20px;
+}
+.righborder-white{
+    height: 40vw;
+    left: 50.665vw;
+    width: 10px;
+    top:25px;
+    background-color: #ffffff;
+    position: absolute;
+    transform: rotate(-35deg);
+    border-radius: 0px 20px;
+}
+.border3{
+    position: absolute;
+    left:36vw;
+    width: 100px;
+    top: 0;
+    border-bottom: solid 50px #4b2323;
+}
+.carousel-title{
+    position: absolute;
+    top: 50px;
+    left: 200px;
+}
+.carousel-title h1{
+
+    font-size: 100pt;
+    font-weight: 900;
+    color: #fff;
+    box-shadow: #000000;
+}
+.carousel-title2{
+     position: absolute;
+     top: 40px;
+    left: 42vw;
+ }
+.carousel-title2 h1.t2{
+    font-size: 120pt;
+    font-weight: 900;
+    color: #fff;
+    box-shadow: #000000;
+}
+.carousel-indicators{
+    bottom: -50px;
+
+    border-top: none !important;
+    border-bottom: none !important;
+}
+.carousel-indicators li{
+    background-color: #332c2c !important;
+    color: #930d00;
+    width: 10px !important;
+    height: 10px !important;
+    border-top: none !important;
+    border-bottom: none !important;
+    border-radius: 100px !important;
+}
+.carousel-indicators li.active{
+     background-color: #b20f0f !important;
+     color: #930d00;
+     width: 10px !important;
+     height: 10px !important;
+ }
+.carousel .carousel-control {
+    border-radius: 12px;
+    overflow: hidden;
+}
+.content{
+    background-color: #f0f0f0;
+}
+.visi h3{
+    font-weight: 600;
+}
+.visi .right-side{
+    border-left: solid 5px #961515;
+}
+.visi a{
+    color: rgb(178, 15, 15);
+}
+.pengumuman{
+    background-color: #fff;
+}
+.footer{
+    background-color: #161616;
+    color: #AEAEAE;
+}
+.footer .logo-footer{
+    max-width: 200px;
+}
+hr.f-logo{
+    border: solid 2px #fff;
+}
+.footer-bottom{
+    background: #343434;
+}
+.social-list li{
+    padding: 0 10px;
+}
+.social-list li a{
+    color: #AEAEAE;
+    font-size: 16pt;
+    text-decoration: none;
+}
+a {
+    text-decoration: none;
+}
+.link-footer a{
+    color: #AEAEAE;
+}
+.title hr{
+    height: 4px;
+}
+.pengumuman-item{
+    border: solid 2px #f0f0f0;
+    border-radius: 5px;
+}
+.pengumuman-item p{
+    border-left: solid 5px #CE1212;
+}
+.berita{
+    background-color: #fff;
+}
+.cb-time span{
+    color: rgba(72, 70, 70, 0.65);
+}
+.program{
+    background-color: #fff;
+
+}
+.btn-primary{
+    background-color: #CE1212;
+    border-color: #ce1712;
+}
+.btn-primary.show{
+    background-color: #490a0a !important;
+    border-color: #570a07;
+}
+.btn-primary:hover{
+    color: #fff;
+    background-color: #910c0c;
+    border-color: #910c0c;
+}
+.prodi-body p{
+    text-align: justify;
+}
+.highliter{
+    text-align: justify;
+}
+.isi-pengumuman p{
+    text-align: justify;
+}
+.berita .text-berita{
+    text-align: justify;
+}
+.text-justify{
+    text-align: justify;
+}
+.table{
+    font-size: 11pt;
+}
+thead{
+    text-align: center;
+    vertical-align: top;
+    background-color: #f0f0f0;
+}
+thead th{
+    text-align: center;
+    vertical-align: top;
+}
+.table tbody{
+    border-top: none;
+}
+.table tbody tr td:first-child{
+    text-align: center;
+}
+.table>:not(:first-child){
+    border-top: none;
+}
+.pem-untuk{
+    background-color: #ce1712;
+    border-radius: 10px;
+    color: #fff;
+}
+.pem-untuk .pem-text{
+    border-left: solid 3px #fff;
+}
